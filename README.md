@@ -52,4 +52,4 @@ create index stunameidx on student ( sname );
 select * from student where sage > 20 and sgender = 'F';
 
 # Architecture
-![minisql](https://github.com/travmygit/MiniSQL/res/minisql.png)
+![minisql](https://github.com/travmygit/MiniSQL/blob/master/res/minisql.png)
