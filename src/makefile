@@ -3,10 +3,10 @@ OBJECTS = API.o Attribute.o BufferManager.o CatalogManager.o \
           Condition.o IndexManager.o Interpreter.o RecordManager.o
 
 # executable
-all: main
+all: minisql
 .PHONY: all
 
-main: main.o $(OBJECTS)
+minisql: main.o $(OBJECTS)
 	g++ -g -o $@ main.o $(OBJECTS)
 
 API.o: API.cpp API.h
