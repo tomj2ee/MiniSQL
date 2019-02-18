@@ -1,6 +1,9 @@
 # MiniSQL
 A tiny relational database!!!
 
+### Architecture
+<img src="https://github.com/travmygit/MiniSQL/blob/master/res/minisql.png" width=375>
+
 ### Feature
 表的建立/删除
 索引的建立/删除
@@ -52,5 +55,3 @@ create index stunameidx on student ( sname );
 
 select * from student where sage > 20 and sgender = 'F';
 ```
-### Architecture
-<img src="https://github.com/travmygit/MiniSQL/blob/master/res/minisql.png" width=375>
